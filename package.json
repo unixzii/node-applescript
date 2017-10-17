@@ -1,0 +1,38 @@
+{
+  "name": "applescript2",
+  "version": "0.1.0",
+  "description": "run AppleScript through Node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "install": "node-gyp configure && node-gyp build",
+    "test": "mocha test.js"
+  },
+  "keywords": [
+    "applescript",
+    "native",
+    "cocoa",
+    "macos",
+    "interop"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unixzii/node-applescript.git"
+  },
+  "author": {
+    "name": "Cyandev",
+    "email": "unixzii@gmail.com",
+    "url": "https://unixzii.github.io"
+  },
+  "bugs": {
+    "email": "unixzii@gmail.com",
+    "url": "https://github.com/unixzii/node-applescript/issues/new"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "nan": "^2.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
